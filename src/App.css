@@ -1,5 +1,11 @@
+*
+{
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +41,207 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-item
+{
+  margin-right: 30px;
+}
+
+.navbar{
+  background-color: #2C3E50;
+  
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link
+{
+  color: white;
+  cursor: pointer;
+}
+.navbar-collapse .navbar-nav .nav-item .nav-link:hover
+{
+  color: #1ABC9C;
+
+}
+
+
+.container-home
+{
+  background-color: #1ABC9C;
+  height: 100vh;
+}
+
+.title
+{
+  font-size: 65px;
+  font-weight:700;
+}
+.divider-custom
+{
+  margin: 1.2rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.divider-custom-line
+{
+  background-color: white;
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  border-radius: 1rem;
+  margin: 15px;
+}
+
+.divider-custom-line-port
+{
+  background-color:#2C3E50;
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  border-radius: 1rem;
+  margin: 15px;
+}
+ 
+.port-ico
+{
+  color: #2C3E50;
+}
+
+.title-2
+{  font-size: 55px;
+  font-weight:700;
+  color: #2C3E50;
+
+}
+
+.pic>img
+{
+  border-radius: 10px;
+}
+
+
+.layer
+{
+  background-color:rgba(26,188,156,0.8);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0;
+    top: 0%;
+    transition: opacity 0.3s;
+    
+}
+
+ .pic:hover .layer {
+  opacity: 1;
+}
+
+.container-about
+{
+  background-color: #1ABC9C;
+  height:auto;
+}
+
+.lead p
+{
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.form-group
+{
+  position: relative;
+  border-bottom:  1px solid #e9ecef;
+}
+
+.form-group label{
+  font-size: 0.85em;
+  line-height: 1.764705882em;
+  position: relative;
+  z-index: 0;
+  top: 2rem;
+  display: block;
+  margin: 0;
+  opacity: 0;
+}
+
+.form-group input{
+  font-size: 1.5em;
+  position: relative;
+  z-index: 1;
+  padding-left: 0;
+  padding-right: 0;
+  resize: none;
+  border: none;
+  border-radius: 0;
+  background: none;
+  box-shadow: none !important;
+}
+
+
+.form-group textarea{
+  font-size: 1.5em;
+  position: relative;
+  z-index: 1;
+  padding-left: 0;
+  padding-right: 0;
+  resize: none;
+  border: none;
+  border-radius: 0;
+  background: none;
+  box-shadow: none !important;
+}
+
+.btn-primary
+{
+  color: white;
+  background-color: #1ABC9C !important;
+  border: #1ABC9C;
+}
+.btn-xl{
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+}
+
+.footer{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #2C3E50;
+  color: white;
+}
+
+.btn-social
+{
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  margin-left: 15px;
+}
+
+.copy-right
+{
+  background-color: #1A252F;
+}
+
+
+.home-link
+{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home-link:hover
+{
+  color: white !important;
+}
+
+.invalid
+{
+  border: 1px solid red;
 }
